@@ -61,10 +61,10 @@ Team Number:
 ## Screenshots
 
 Procedure A, step 1:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/Lab1-Screenshot1.png)
 
 Procedure A, step 4:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/Lab1-Screenshot.png)
 
 Procedure B, UART:
 ![Put path to your image here ->](img/placeholder.png)
