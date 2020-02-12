@@ -28,7 +28,8 @@ Team Number:
 
 6. What is the difference between synchronous and asynchronous communication?
 
-    Synchronous has both sender/receiver acessing data according to the same clock (No need for a clock signal). Asynchronous has no common clock signal between the sender/receiver. (Needs a clock signal)
+    Synchronous has both sender/receiver acessing data according to the same clock (No need for a clock signal). Asynchronous has no common clock signal between the sender/receiver. (Needs a clock signal).
+    Asynchronous is always waiting and unaware of when it needs to grab data while synchronous is alerted when data is to be collected.
 
 7. Profile of UART: Sent X bytes in Y time 
 
@@ -36,11 +37,11 @@ Team Number:
 
 8. Profile of SPI: Sent X bytes in Y time
 
-    your answer here
+    Took .1495 ms
 
 9. Why is SPI so much faster than UART?
 
-    your answer here
+    It lies mostly in part due to the asynchronous/synchronous difference between the two. Asynchronous is sort of guessing/waiting for it to collect data, while synchronous is alerted when data is there to be collected making the process much quicker.
 
 10. list one pro and one con of UART
 
@@ -56,7 +57,7 @@ Team Number:
 
 13. Why does I2C need external resistors to work?
 
-    your answer here
+    Each signal has these external resistors so that it can restore the signal to high when no device is asserting a low value.
 
 ## Screenshots
 
@@ -70,4 +71,4 @@ Procedure B, UART:
 ![Put path to your image here ->](img/Lab1-Screenshot3.png)
 
 Procedure B, SPI:
-![Put path to your image here ->](img/placeholder.png)
+![Put path to your image here ->](img/Lab1-Screenshot4.png)
