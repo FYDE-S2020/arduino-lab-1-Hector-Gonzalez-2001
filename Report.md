@@ -1,6 +1,6 @@
-Name:
+Name: Hector Gonzalez
 
-EID:
+EID: hjg628
 
 Team Number:
 
